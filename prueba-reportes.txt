@@ -1,0 +1,13 @@
+Primero envié un POST con el reporte de infraestructura.
+El servidor respondió confirmando que el reporte fue registrado.
+Luego consulté con GET y apareció la lista con el reporte guardado:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+Después envié un segundo POST con un reporte de ambiente.
+El servidor respondió confirmando que el reporte fue registrado.
+Al consultar con GET aparecieron los dos reportes en la lista.
